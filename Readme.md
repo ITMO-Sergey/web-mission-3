@@ -13,7 +13,7 @@
 > Ответ: **select** "from", count(*) **as** number_of_sent_messages **from** messages **group by** "from"**
 
 - Запрос 3	 
-> Ответ: **select "to" as username, count(*) as number_of_received_messages from messages group by "to" order by number_of_received_messages desc limit 1**
+> Ответ: **select** "to" **as** username, count(*) **as** number_of_received_messages **from** messages **group by** "to" **order by** number_of_received_messages desc **limit 1**
 
 - Запрос 4	 
 > Ответ: Не получилось сделать
