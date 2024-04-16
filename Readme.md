@@ -1,24 +1,19 @@
-# Mission 2
+# Mission 3
 
-## Part 0
+## Part 0-2
 
-[Link to video](https://drive.google.com/file/d/1Q1iq3QJub7yGQ-JnP4LPtUlCLSsrI9mp/view?usp=sharing)
+[Link to video](https://drive.google.com/file/d/13_5g_zjUmTjmz6N4ui1fMRPeoLIZ1HYZ/view?usp=sharing)
 
-## Part1
+## Part 3
 
-- Вопрос 1	 
-> Ответ: SSH используется для безопасного удаленного доступа и выполнения команд на удаленных компьютерах . Он обеспечивает шифрование данных и аутентификацию, защищая информацию от несанкционированного доступа и подделки.
+- Запрос 1	 
+> Ответ: **select** username **from** users
 
-- Вопрос 2	 
-> Ответ: Публичный ключ должен быть добавлен в файл ~/.ssh/authorized_keys на сервере
+- Запрос 2	 
+> Ответ: **select** "from", count(*) **as** number_of_sent_messages **from** messages **group by** "from"**
 
-- Вопрос 3	 
-> Ответ:Это два способа, с помощью которых бот может получать сообщения с серверов Telegram. Long polling - Клиент отправляет запрос на сервер, и сервер задерживает ответ до тех пор, пока новые сообщения не появиться или не истечет тайм-аут. После этого сервер отправляет ответ клиенту, который сразу же отправляет новый запрос, поддерживая постоянное соединение. Webhooks -  сервер может отправлять автоматические уведомления на URL-адрес, когда приходит сообщение. Этот метод дешевле long polling, т.к. не нужно постоянно поддерживать сетевое соединение открытым. 
+- Запрос 3	 
+> Ответ: **select "to" as username, count(*) as number_of_received_messages from messages group by "to" order by number_of_received_messages desc limit 1**
 
-- Вопрос 4	 
-> Ответ:Это инструмент для описывания проблем в проекте, предложений по улучшению и запросы на новые функции, возможно отслеживания багов. Примеры:
-https://github.com/microsoft/vscode/issues/842
-https://github.com/facebook/react/issues/2127
-
-- Вопрос 5	 
-> Ответ: Добавить файл .gitkeep
+- Запрос 4	 
+> Ответ: Не получилось сделать
