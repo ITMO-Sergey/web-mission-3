@@ -3,6 +3,7 @@
 ## Part 0-2
 
 [Link to video (Первоначальный вариант с ошибкой)](https://drive.google.com/file/d/13_5g_zjUmTjmz6N4ui1fMRPeoLIZ1HYZ/view?usp=sharing)
+
 [Исправление](https://drive.google.com/file/d/1nxQdbx7jIua92z7kZts0zMEds6ny2ZT9/view?usp=sharing)
 
 ## Part 3
